@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+form{
+	border: 2px solid black;
+	Background-color:blue;
+	border-radius:20px;
+	width:1000px;
+	 border-left-width: 20px;
+     border-right-width:20px;
+     align:center;
+}
+div{
+	color:black;
+	font-size:35px;
+}
+input{
+	color:yellow green;
+	font-size:20px;
+}
+h2{
+	color:blue;
+	Background-color:violet;
+	
+	font-size:30px;
+}
+body{
+	background-image: url("paper2.webp");
+	
+  
+	border-spacing: 20px;
+    border-style: double;
+
+}
+table{
+	background-color:skyblue;
+	border-spacing: 20px;
+    border-style: double;
+}
+img{
+	font-size:10px;
+	width:100px;
+	border-radius:50px;
+	border-right-width:20px;
+	float:right
+}

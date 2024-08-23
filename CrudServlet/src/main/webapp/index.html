@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Management </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body align="center" bgcolor="cyan">
+ 
+<h1>Add New Employee</h1>  
+<form action="SaveServlet" method="post" >  
+<table align="center"> 
+<tr><td>Id:</td><td><input type="text" name="id"/></td></tr> 
+<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
+<tr><td>Password:</td><td><input type="password" name="password"/></td></tr>  
+<tr><td>Email:</td><td><input type="email" name="email"/></td></tr>  
+<tr><td>Country:</td><td>  
+<select name="country" style="width:150px">  
+<option>India</option>  
+<option>USA</option>  
+<option>UK</option>  
+<option>Russia</option>
+<option>Canada</option>
+<option>Italy</option>
+<option>Other</option>  
+</select>  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Save Employee"/></td></tr>  
+</table>  
+</form>  
+<br/>  
+<h3><a href="ViewServlet">view employees</a> </h3> 
+  
+</body>
+</html>

@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+form{
+	border: 2px solid black;
+	
+	border-radius:20px;
+	
+}
+div{
+	color:black;
+	font-size:35px;
+}
+input,select{
+	color:yellow green;
+	font-size:20px;
+}
+h2{
+	color:blue;
+	Background-color:violet;
+	
+	font-size:30px;
+}
+body{
+	background-image: url("paper2.webp");
+	
+  border-radius:20px;
+	border-spacing: 20px;
+    border-style: double;
+
+}
+table{
+	background-color:skyblue;
+	border-spacing: 10px;
+    border-style: double;
+    border-radius:20px;
+}
+tr,th,td{
+	font-size:20px;
+	border-radius:10px;
+}
+img{
+	font-size:10px;
+	width:100px;
+	border-radius:50px;
+	border-right-width:20px;
+	float:right
+}
